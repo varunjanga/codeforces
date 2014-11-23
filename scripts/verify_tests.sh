@@ -1,6 +1,6 @@
 #!/bin/bash
 taskid=$(echo $1 | awk '{print toupper($0)}')
-g++ $taskid.cpp -D ONLINE_JUDGE 
+g++ $taskid.cpp -D ONLINE_JUDGE
 if [ $? -eq 0 ];then
 	echo "Compiling "$taskid".cpp success!"
 	echo "-----------------------------------"

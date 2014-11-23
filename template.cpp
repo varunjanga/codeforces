@@ -7,11 +7,13 @@ using namespace std;
 #define sortall(a)                  sort(a.begin(), a.end())
 #define ll long long
 #define ii pair<int,int>
-#define mod 1000000007
+#define vi vector<int>
+#define pb push_back
+#define mp make_pair
 
 int main(){ _
-#ifndef ONLINE_JUDGE
-	freopen("in", "r", stdin);
-#endif
+	
+	
+	
 	return 0;
 }
