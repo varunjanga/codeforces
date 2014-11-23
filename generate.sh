@@ -13,7 +13,7 @@ problem_count=$(python scripts/get_problems_count.py $1)
 echo $problem_count
 for problem_num in $(seq 1 ${problem_count})
 do
-	problem_num=$(echo $problem_num+64 | bc)
+	problem_num=$(echo $problem_num+96 | bc)
 	problem=$(printf "\x$(printf %x $problem_num)")
 	echo -n $problem" "
 	cp -n --no-clobber template.cpp $1/$problem.cpp
